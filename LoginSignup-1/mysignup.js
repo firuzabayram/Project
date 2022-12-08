@@ -17,13 +17,13 @@ form.addEventListener("submit", function (event) {
     email: "",
     password: "",
     username: "",
-    number: "",
+    tel: "",
   };
 
   userObj.email = allInputs[0].value;
   userObj.password = allInputs[1].value;
   userObj.username = allInputs[2].value;
-  userObj.number = allInputs[3].value;
+  userObj.tel = allInputs[3].value;
 
   console.log(allInputs[0].value);
   console.log(allInputs[2].value);
