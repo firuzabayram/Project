@@ -1,0 +1,16 @@
+.world{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.darkmode{
+    display: flex;
+    justify-content: space-around;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.searchbutton{
+    column-gap: 10px;
+}
